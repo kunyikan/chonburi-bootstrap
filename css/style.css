@@ -9,3 +9,9 @@ body {
 footer a {
     text-decoration: none;
 } 
+
+.card img {
+    width: 100%;
+    height: 200px; /* หรือใช้ object-fit เพื่อให้ขนาดภาพสอดคล้อง */
+    object-fit: cover;
+}
